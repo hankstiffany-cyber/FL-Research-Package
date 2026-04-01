@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Databases (too large for git)
+*.db
+
+# Temp/cache
+cache/
+data/temp_wav/
+data/youtube_audio/
+data/spectrograms/
+data/morse_decode/
+
+# Windows artifacts
+nul
+
+# IDE
+.vscode/
+.idea/
+
+# Claude
+.claude/

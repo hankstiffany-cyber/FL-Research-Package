@@ -1,0 +1,59 @@
+code,lat,lon,date,method,region,title
+-245-378,-37.8,-24.5,2013-11,MilOrb-large,Ocean/Other,Making friends in Oregon
+-234+515,51.5,-23.4,2016-02,MilOrb-large,Ocean/Other,Cassini Diskus KOI-234+515-
++070-022,36.23,-118.7,2016-03,MilDSP,North America,Cassini Diskus - MilDSP +070-022
++103-055,35.58,-155.82,2016-03,MilDSP,Ocean/Other,Cassini Diskus - MilDSP +103-055
+-020+136,38.0,59.0,2016-04,MilDSP,Central Asia,Cassini Diskus - MilDSP -020+136 (Turkmenistan Fal
++123-007,35.19,-101.83,2016-04,MilDSP,North America,Cassini Diskus - MilDSP +123-007
++205-014,33.57,-109.71,2016-04,MilDSP,North America,Cassini Diskus - MilDSP +205-014
++017+105,38,26.25,2016-05,MilOrb-small,Europe,Cassini Diskus - MilOrb +017+105
++007+209,28,52.25,2016-06,MilOrb-small,Africa/Middle East,Cassini Diskus - MilOrb +007+209
++202-197,-19.7,20.2,2016-06,MilOrb-large,Southern Africa,Cassini Diskus - MilOrb +202-197
+-261+032,3.2,-26.1,2016-06,MilOrb-large,Ocean/Other,Cassini Diskus - MilOrb -261+032
++003-038,24,-9.5,2016-08,MilOrb-small,Africa/Middle East,Cassini Diskus - MilOrb +003-038
+-007+214,14,53.5,2016-09,MilOrb-small,Africa/Middle East,Cassini Diskus - MilOrb -007+214
++134+208,20.8,13.4,2016-09,MilOrb-large,Africa/Middle East,Cassini Diskus - MilOrb +134+208
+-177+331,33.1,-17.7,2016-10,MilOrb-large,Ocean/Other,Cassini Diskus - MilOrb -177+331
++002+053,23,13.25,2016-11,MilOrb-small,Africa/Middle East,Cassini Diskus - MilOrb +002+053
+-003+442,18,110.5,2017-01,MilOrb-small,East Asia,Cassini Diskus - MilOrb -003+442 榆林海军基地
+-034+003,-13,0.75,2017-01,MilOrb-small,Ocean/Other,Cassini Diskus - MilOrb -034+003
++124+012,1.2,12.4,2017-01,MilOrb-large,Africa/Middle East,Cassini Diskus - MilOrb +124+012
++342+033,3.3,34.2,2017-01,MilOrb-large,Africa/Middle East,Cassini Diskus - MilOrb +342+033
++134+208,20.8,13.4,2017-01,MilOrb-large,Africa/Middle East,"Video - ""Departure of MilOrb+134+208"" by Dark Aler"
+-034+003,-13,0.75,2017-04,MilOrb-small,Ocean/Other,From radar angels to optical demons Organometallic
+-003+235,18,58.75,2017-07,MilOrb-small,Africa/Middle East,Cassini Diskus - MilOrb -003+235
++132+004,0.4,13.2,2017-07,MilOrb-large,Africa/Middle East,Cassini Diskus - MilOrb +132+004
++002+110,23,27.5,2017-08,MilOrb-small,Africa/Middle East,Cassini Diskus - MilOrb +002+110
+-003+310,18,77.5,2017-08,MilOrb-small,Ocean/Other,Cassini Diskus - MilOrb -003+310
++006+213,27,53.25,2017-08,MilOrb-small,Africa/Middle East,Cassini Diskus - MilOrb +006+213
+-007+213,14,53.25,2017-08,MilOrb-small,Africa/Middle East,Cassini Diskus - MilOrb -007+213
+-022-717,-1,-179.25,2017-08,MilOrb-small,Ocean/Other,Cassini Diskus - MilOrb -022-717
+-123+210,21.0,-12.3,2017-08,MilOrb-large,Africa/Middle East,Cassini Diskus - MilOrb -123+210
+-005+231,16,57.75,2017-09,MilOrb-small,Africa/Middle East,Cassini Diskus - MilOrb -005+231
++428-279,-27.9,42.8,2017-09,MilOrb-large,Southern Africa,Cassini Diskus - MilOrb +428-279 (LEO)
++506-321,-32.1,50.6,2017-09,MilOrb-large,Southern Africa,Cassini Diskus - MilOrb +506-321 (LEO)
+-305+222,22.2,-30.5,2017-10,MilOrb-large,Ocean/Other,Cassini Diskus - MilOrb -305+222
++221+107,10.7,22.1,2018-04,MilOrb-large,Africa/Middle East,Cassini Diskus - MilOrb +221+107
+-332+226,22.6,-33.2,2018-04,MilOrb-large,Ocean/Other,Cassini Diskus - MilOrb -332+226
++004-222,25,-55.5,2018-04,MilOrb-small,Ocean/Other,Cassini Diskus - MilOrb+004-222
++133+005,0.5,13.3,2018-04,MilOrb-large,Africa/Middle East,Cassini Diskus - MilOrb+133+005
++023+170,44,42.5,2018-05,MilOrb-small,Central Asia,Cassini Diskus - MilOrb +023+170
++313+145,14.5,31.3,2018-05,MilOrb-large,Africa/Middle East,Cassini Diskus - MilOrb +313+145
++024+132,45,33.0,2018-09,MilOrb-small,Europe,Cassini Diskus - MilOrb +024+132
++166-205,-20.5,16.6,2018-09,MilOrb-large,Southern Africa,Cassini Diskus - MilOrb +166-205
++239-004,-0.4,23.9,2018-09,MilOrb-large,Southern Africa,Cassini Diskus - MilOrb +239-004
+-394-088,-8.8,-39.4,2019-03,MilOrb-large,South America,Cassini Diskus - -394-088 (LKP)
++055+221,76,55.25,2019-03,MilOrb-small,Arctic,Cassini Diskus - MilOrb +055+221
++234-102,-10.2,23.4,2019-03,MilOrb-large,Southern Africa,Cassini Diskus - MilOrb +234-102
+-694+407,40.7,-69.4,2019-03,MilOrb-large,North America,Cassini Diskus - MilOrb -694+407
+-844+430,43.0,-84.4,2019-03,MilOrb-large,North America,Cassini Diskus - MilOrb -844+430
++123-007,-0.7,12.3,2019-09,MilOrb-large,Southern Africa,Orb Logic - Understanding the Language of Sol-3 In
+-844+404,40.4,-84.4,2020-03,MilOrb-large,North America,Cassini Diskus - MilOrb -844+404
++051+204,72,51.0,2020-10,MilOrb-small,Arctic,Cassini Diskus - MilOrb +051+204
+-415-006,-0.6,-41.5,2021-01,MilOrb-large,South America,Ba deorsu šarsagsi
++002+072,23,18.0,2022-04,MilOrb-small,Africa/Middle East,Cassini Diskus - MilOrb +002+072 RTB Millired
++308+406,40.6,30.8,2022-06,MilOrb-large,Europe,Cassini Diskus - MilOrb +308+406
++406+102,10.2,40.6,2022-06,MilOrb-large,Africa/Middle East,Cassini Diskus - MilOrb +406+102
+-055+221,-34,55.25,2023-05,MilOrb-small,Southern Africa,Cassini Diskus - MilOrb -055+221
++737-015,-1.5,73.7,2024-11,MilOrb-large,Ocean/Other,UAP and the militarization of natural phenomena: F
+-032+244,-11,61.0,2025-08,MilOrb-small,Ocean/Other,Cassini Diskus - MilOrb -032+244

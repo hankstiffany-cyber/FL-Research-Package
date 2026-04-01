@@ -1,0 +1,1981 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.5519,
+          29.9272
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "date": "2013-10",
+        "title": "Cassini Diskus - Iran region",
+        "nearest_facility": "Yulin Naval Base",
+        "facility_distance_km": 5295.8,
+        "nearest_anomaly": "Kursk Magnetic Anomaly",
+        "anomaly_distance_km": 3040.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.210973,
+          41.954269
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "date": "2015-06",
+        "title": "Cassini Diskus - 41.954269, -101.210973",
+        "nearest_facility": "Pantex Plant",
+        "facility_distance_km": 738.4,
+        "nearest_anomaly": "Bermuda Triangle",
+        "anomaly_distance_km": 3349.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -170.513437,
+          -18.836491
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "date": "2015-08",
+        "title": "Cassini Diskus - -18.836491, -170.513437",
+        "nearest_facility": "Edwards AFB",
+        "facility_distance_km": 8157.8,
+        "nearest_anomaly": "Bermuda Triangle",
+        "anomaly_distance_km": 11803.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.201742,
+          -20.122252
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "date": "2015-08",
+        "title": "Cassini Diskus - -20.122252, -17.201742 \u25c6",
+        "nearest_facility": "AUTEC",
+        "facility_distance_km": 8231.1,
+        "nearest_anomaly": "South Atlantic Anomaly",
+        "anomaly_distance_km": 2538.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.869504,
+          31.918168
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "date": "2015-08",
+        "title": "Cassini Diskus - \u9752\u30f6\u5cf6 31.918168, 139.869504",
+        "nearest_facility": "Yulin Naval Base",
+        "facility_distance_km": 3394.9,
+        "nearest_anomaly": "Kursk Magnetic Anomaly",
+        "anomaly_distance_km": 8129.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.486917,
+          33.254528
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "date": "2015-08",
+        "title": "Cassini Diskus - 33.254528, -119.486917 \u25b8",
+        "nearest_facility": "Edwards AFB",
+        "facility_distance_km": 236.2,
+        "nearest_anomaly": "Bermuda Triangle",
+        "anomaly_distance_km": 4755.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.231561,
+          7.524518
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "date": "2015-08",
+        "title": "Cassini Diskus - \u25ef \u25e3 \u25d6 7.524518, 23.231561",
+        "nearest_facility": "Thule Air Base",
+        "facility_distance_km": 9244.0,
+        "nearest_anomaly": "Bangui Anomaly",
+        "anomaly_distance_km": 602.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.73352,
+          34.84838
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "date": "2015-10",
+        "title": "Cassini Diskus - \u25ec \u25b1 \u25bb \u25cd 34.848380, 36.733520",
+        "nearest_facility": "Thule Air Base",
+        "facility_distance_km": 6636.2,
+        "nearest_anomaly": "Kursk Magnetic Anomaly",
+        "anomaly_distance_km": 1874.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2211686,
+          55.5590395
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "date": "2015-12",
+        "title": "Cassini Diskus - 55.5590395,-3.2211686,3940",
+        "nearest_facility": "Thule Air Base",
+        "facility_distance_km": 3452.8,
+        "nearest_anomaly": "Kursk Magnetic Anomaly",
+        "anomaly_distance_km": 2598.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.1359297,
+          39.7808257
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "date": "2016-01",
+        "title": "Cassini Diskus - 39.7808257,59.1359297,21024 (Turkmenistan)",
+        "nearest_facility": "Yulin Naval Base",
+        "facility_distance_km": 5371.6,
+        "nearest_anomaly": "Kursk Magnetic Anomaly",
+        "anomaly_distance_km": 2203.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.7604,
+          36.648
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "date": "2016-02",
+        "title": "Cassini Diskus - Karakul",
+        "nearest_facility": "Yulin Naval Base",
+        "facility_distance_km": 4992.8,
+        "nearest_anomaly": "Kursk Magnetic Anomaly",
+        "anomaly_distance_km": 2673.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.72423,
+          48.440355
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "date": "2016-05",
+        "title": "Cassini Diskus - 48.440355, -47.724230",
+        "nearest_facility": "Thule Air Base",
+        "facility_distance_km": 3259.3,
+        "nearest_anomaly": "Bermuda Triangle",
+        "anomaly_distance_km": 3303.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.32942,
+          21.760579
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "date": "2016-06",
+        "title": "Cassini Diskus - 21.760579, 39.329420",
+        "nearest_facility": "Yulin Naval Base",
+        "facility_distance_km": 7286.0,
+        "nearest_anomaly": "Bangui Anomaly",
+        "anomaly_distance_km": 2886.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.125097,
+          72.267445
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "date": "2016-06",
+        "title": "Cassini Diskus - 72.267445, 15.125097",
+        "nearest_facility": "Thule Air Base",
+        "facility_distance_km": 2329.1,
+        "nearest_anomaly": "Kursk Magnetic Anomaly",
+        "anomaly_distance_km": 2506.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.000325,
+          -31.321476
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "date": "2016-06",
+        "title": "Cassini Diskus - Site -31.321476, 175.000325",
+        "nearest_facility": "Yulin Naval Base",
+        "facility_distance_km": 8888.6,
+        "nearest_anomaly": "South Atlantic Anomaly",
+        "anomaly_distance_km": 12259.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          69.4625,
+          38.6812
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "date": "2016-08",
+        "title": "Cassini Diskus - Entry Event",
+        "nearest_facility": "Yulin Naval Base",
+        "facility_distance_km": 4481.6,
+        "nearest_anomaly": "Kursk Magnetic Anomaly",
+        "anomaly_distance_km": 2945.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.6167,
+          45.9082
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "date": "2016-08",
+        "title": "Cassini Diskus - Entry Event Mongolia",
+        "nearest_facility": "Yulin Naval Base",
+        "facility_distance_km": 3127.1,
+        "nearest_anomaly": "Kursk Magnetic Anomaly",
+        "anomaly_distance_km": 4800.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.915551,
+          40.121463
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "date": "2016-09",
+        "title": "Cassini Diskus +40.121463, -112.915551",
+        "nearest_facility": "Dugway Proving Ground",
+        "facility_distance_km": 6.6,
+        "nearest_anomaly": "Bermuda Triangle",
+        "anomaly_distance_km": 4225.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.361847,
+          45.886327
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "date": "2016-09",
+        "title": "Cassini Diskus - Entry Event 45.886327, 87.361847",
+        "nearest_facility": "Yulin Naval Base",
+        "facility_distance_km": 3692.9,
+        "nearest_anomaly": "Kursk Magnetic Anomaly",
+        "anomaly_distance_km": 3723.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.999473,
+          48.261512
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "date": "2016-10",
+        "title": "Cassini Diskus - 48.261512, 71.999473",
+        "nearest_facility": "Yulin Naval Base",
+        "facility_distance_km": 4751.1,
+        "nearest_anomaly": "Kursk Magnetic Anomaly",
+        "anomaly_distance_km": 2561.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.517892,
+          33.552608
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "date": "2017-01",
+        "title": "Cassini Diskus - 33.552608, -100.517892",
+        "nearest_facility": "Pantex Plant",
+        "facility_distance_km": 218.9,
+        "nearest_anomaly": "Bermuda Triangle",
+        "anomaly_distance_km": 3004.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.517892,
+          33.552608
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "date": "2017-01",
+        "title": "Cassini Diskus - 33.552608, -100.517892",
+        "nearest_facility": "Pantex Plant",
+        "facility_distance_km": 218.9,
+        "nearest_anomaly": "Bermuda Triangle",
+        "anomaly_distance_km": 3004.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.749575,
+          -25.292531
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "date": "2017-02",
+        "title": "Cassini Diskus - -25.292531, 130.749575",
+        "nearest_facility": "Yulin Naval Base",
+        "facility_distance_km": 5354.2,
+        "nearest_anomaly": "SAA African Lobe",
+        "anomaly_distance_km": 11131.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.749575,
+          -25.292531
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "date": "2017-02",
+        "title": "Cassini Diskus - -25.292531, 130.749575 (Queltron Correction)",
+        "nearest_facility": "Yulin Naval Base",
+        "facility_distance_km": 5354.2,
+        "nearest_anomaly": "SAA African Lobe",
+        "anomaly_distance_km": 11131.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.2911,
+          33.5384
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "date": "2017-05",
+        "title": "Mystical Weapons - Ghazni Afghanistan",
+        "nearest_facility": "Yulin Naval Base",
+        "facility_distance_km": 4430.1,
+        "nearest_anomaly": "Kursk Magnetic Anomaly",
+        "anomaly_distance_km": 3268.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.442803,
+          35.76019
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "date": "2017-08",
+        "title": "Cassini Diskus - +35.760190, -82.442803",
+        "nearest_facility": "AUTEC",
+        "facility_distance_km": 1304.1,
+        "nearest_anomaly": "Bermuda Triangle",
+        "anomaly_distance_km": 1621.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.787314,
+          39.285286
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "date": "2017-08",
+        "title": "Cassini Diskus - +39.285286, -103.787314",
+        "nearest_facility": "Pantex Plant",
+        "facility_distance_km": 482.5,
+        "nearest_anomaly": "Bermuda Triangle",
+        "anomaly_distance_km": 3445.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.822339,
+          52.935655
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "date": "2017-08",
+        "title": "Cassini Diskus - +52.935655, -34.822339",
+        "nearest_facility": "Thule Air Base",
+        "facility_distance_km": 2980.3,
+        "nearest_anomaly": "Bermuda Triangle",
+        "anomaly_distance_km": 4326.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.82628,
+          52.936358
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "date": "2017-08",
+        "title": "Cassini Diskus - +52.936358, -34.826280",
+        "nearest_facility": "Thule Air Base",
+        "facility_distance_km": 2980.1,
+        "nearest_anomaly": "Bermuda Triangle",
+        "anomaly_distance_km": 4326.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          61.008806,
+          28.137725
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "date": "2017-08",
+        "title": "Cassini Diskus - \"Sienna\" last seen at 28.137725, 61.008806",
+        "nearest_facility": "Yulin Naval Base",
+        "facility_distance_km": 5050.5,
+        "nearest_anomaly": "Kursk Magnetic Anomaly",
+        "anomaly_distance_km": 3333.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.206411,
+          34.347303
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "date": "2017-08",
+        "title": "Cassini Diskus - \"Sienna\" 34.347303, 57.206411",
+        "nearest_facility": "Yulin Naval Base",
+        "facility_distance_km": 5454.0,
+        "nearest_anomaly": "Kursk Magnetic Anomaly",
+        "anomaly_distance_km": 2557.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.344333,
+          9.446663
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "date": "2017-09",
+        "title": "The Andaman Sea Area of Denial: The strange beacon in Constance Island",
+        "nearest_facility": "Yulin Naval Base",
+        "facility_distance_km": 1908.8,
+        "nearest_anomaly": "Kursk Magnetic Anomaly",
+        "anomaly_distance_km": 7023.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.344428,
+          9.445963
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "date": "2017-09",
+        "title": "The Andaman Sea Area of Denial: The strange beacon in Constance Island",
+        "nearest_facility": "Yulin Naval Base",
+        "facility_distance_km": 1908.8,
+        "nearest_anomaly": "Kursk Magnetic Anomaly",
+        "anomaly_distance_km": 7023.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.236034,
+          11.563285
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "date": "2017-09",
+        "title": "The Andaman Sea Area of Denial: The strange beacon in Constance Island",
+        "nearest_facility": "Yulin Naval Base",
+        "facility_distance_km": 2001.8,
+        "nearest_anomaly": "Kursk Magnetic Anomaly",
+        "anomaly_distance_km": 6697.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.403915,
+          21.128135
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "date": "2018-02",
+        "title": "Cassini Diskus +21.128135, -11.403915",
+        "nearest_facility": "AUTEC",
+        "facility_distance_km": 6739.4,
+        "nearest_anomaly": "Bangui Anomaly",
+        "anomaly_distance_km": 3584.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.402481,
+          21.128192
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "date": "2018-02",
+        "title": "Cassini Diskus +21.128192, -11.402481",
+        "nearest_facility": "AUTEC",
+        "facility_distance_km": 6739.5,
+        "nearest_anomaly": "Bangui Anomaly",
+        "anomaly_distance_km": 3584.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.849702,
+          38.639132
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "date": "2018-02",
+        "title": "Cassini Diskus - +38.639132, -102.849702",
+        "nearest_facility": "Pantex Plant",
+        "facility_distance_km": 386.2,
+        "nearest_anomaly": "Bermuda Triangle",
+        "anomaly_distance_km": 3346.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.231257,
+          39.222054
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "date": "2018-02",
+        "title": "Cassini Diskus +39.222054, -102.231257",
+        "nearest_facility": "Pantex Plant",
+        "facility_distance_km": 437.8,
+        "nearest_anomaly": "Bermuda Triangle",
+        "anomaly_distance_km": 3315.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -18.435815,
+          -13.162543
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "date": "2018-04",
+        "title": "Cassini Diskus - -13.162543, -18.435815",
+        "nearest_facility": "AUTEC",
+        "facility_distance_km": 7689.0,
+        "nearest_anomaly": "South Atlantic Anomaly",
+        "anomaly_distance_km": 2901.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -14.08169,
+          -16.506432
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "date": "2018-04",
+        "title": "Cassini Diskus - -16.506432, -14.081690",
+        "nearest_facility": "AUTEC",
+        "facility_distance_km": 8283.8,
+        "nearest_anomaly": "South Atlantic Anomaly",
+        "anomaly_distance_km": 3032.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.500876,
+          33.829237
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "date": "2018-04",
+        "title": "Cassini Diskus - 33.829237, 36.500876 (Jabrud)",
+        "nearest_facility": "Thule Air Base",
+        "facility_distance_km": 6740.1,
+        "nearest_anomaly": "Kursk Magnetic Anomaly",
+        "anomaly_distance_km": 1987.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.440693,
+          33.853806
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "date": "2018-04",
+        "title": "Cassini Diskus - 33.853806, 36.440693 (Jabrud - calibration)",
+        "nearest_facility": "Thule Air Base",
+        "facility_distance_km": 6736.1,
+        "nearest_anomaly": "Kursk Magnetic Anomaly",
+        "anomaly_distance_km": 1984.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.934297,
+          -36.486425
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "date": "2018-05",
+        "title": "Cassini Diskus - -36.486425, -16.934297",
+        "nearest_facility": "AUTEC",
+        "facility_distance_km": 9324.0,
+        "nearest_anomaly": "South Atlantic Anomaly",
+        "anomaly_distance_km": 2256.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.491462,
+          -37.860277
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "date": "2018-05",
+        "title": "Cassini Diskus - -37.860277, -16.491462",
+        "nearest_facility": "AUTEC",
+        "facility_distance_km": 9447.3,
+        "nearest_anomaly": "South Atlantic Anomaly",
+        "anomaly_distance_km": 2330.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.969045,
+          41.642213
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "date": "2018-05",
+        "title": "Cassini Diskus +41.642213, -116.969045",
+        "nearest_facility": "Dugway Proving Ground",
+        "facility_distance_km": 376.3,
+        "nearest_anomaly": "Bermuda Triangle",
+        "anomaly_distance_km": 4589.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.969353,
+          41.642279
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "date": "2018-05",
+        "title": "Cassini Diskus +41.642279, -116.969353",
+        "nearest_facility": "Dugway Proving Ground",
+        "facility_distance_km": 376.3,
+        "nearest_anomaly": "Bermuda Triangle",
+        "anomaly_distance_km": 4589.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.10403,
+          -37.200721
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "date": "2018-05",
+        "title": "Cassini Diskus - \"Sienna\" -37.200721, -13.104030",
+        "nearest_facility": "AUTEC",
+        "facility_distance_km": 9646.6,
+        "nearest_anomaly": "South Atlantic Anomaly",
+        "anomaly_distance_km": 2606.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.142772,
+          -37.2312
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "date": "2018-05",
+        "title": "Cassini Diskus - \"Sienna\" -37.231200, -13.142772",
+        "nearest_facility": "AUTEC",
+        "facility_distance_km": 9645.7,
+        "nearest_anomaly": "South Atlantic Anomaly",
+        "anomaly_distance_km": 2603.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.689209,
+          16.658584
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "date": "2018-07",
+        "title": "Cassini Diskus +16.658584, -116.689209",
+        "nearest_facility": "White Sands",
+        "facility_distance_km": 2027.6,
+        "nearest_anomaly": "Bermuda Triangle",
+        "anomaly_distance_km": 4815.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.699944,
+          18.256028
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "date": "2018-07",
+        "title": "Cassini Diskus +18.256028, -81.699944",
+        "nearest_facility": "AUTEC",
+        "facility_distance_km": 829.5,
+        "nearest_anomaly": "Bermuda Triangle",
+        "anomaly_distance_km": 1335.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.68284,
+          32.046861
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "date": "2018-07",
+        "title": "Cassini Diskus +32.046861, -105.682840",
+        "nearest_facility": "White Sands",
+        "facility_distance_km": 83.6,
+        "nearest_anomaly": "Bermuda Triangle",
+        "anomaly_distance_km": 3462.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.737882,
+          -20.997842
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "date": "2018-08",
+        "title": "Cassini Diskus: -20.997842, -178.737882",
+        "nearest_facility": "Edwards AFB",
+        "facility_distance_km": 8933.7,
+        "nearest_anomaly": "Bermuda Triangle",
+        "anomaly_distance_km": 12693.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.491157,
+          -25.811565
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "date": "2018-08",
+        "title": "Cassini Diskus: -25.811565, 173.491157",
+        "nearest_facility": "Yulin Naval Base",
+        "facility_distance_km": 8465.8,
+        "nearest_anomaly": "South Atlantic Anomaly",
+        "anomaly_distance_km": 12856.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.464099,
+          -26.294638
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "date": "2018-08",
+        "title": "Cassini Diskus: -26.294638, 172.464099",
+        "nearest_facility": "Yulin Naval Base",
+        "facility_distance_km": 8401.9,
+        "nearest_anomaly": "South Atlantic Anomaly",
+        "anomaly_distance_km": 12864.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          169.873607,
+          -27.853421
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "date": "2018-08",
+        "title": "Cassini Diskus: -27.853421, 169.873607",
+        "nearest_facility": "Yulin Naval Base",
+        "facility_distance_km": 8266.8,
+        "nearest_anomaly": "South Atlantic Anomaly",
+        "anomaly_distance_km": 12841.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          169.853685,
+          -27.870593
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "date": "2018-08",
+        "title": "Cassini Diskus: -27.870593, 169.853685",
+        "nearest_facility": "Yulin Naval Base",
+        "facility_distance_km": 8266.1,
+        "nearest_anomaly": "South Atlantic Anomaly",
+        "anomaly_distance_km": 12841.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.605441,
+          35.526537
+        ]
+      },
+      "properties": {
+        "id": 57,
+        "date": "2018-08",
+        "title": "Cassini Diskus: 35.526537, 64.605441",
+        "nearest_facility": "Yulin Naval Base",
+        "facility_distance_km": 4805.7,
+        "nearest_anomaly": "Kursk Magnetic Anomaly",
+        "anomaly_distance_km": 2878.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.601139,
+          35.555545
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "date": "2018-08",
+        "title": "Cassini Diskus: 35.555545, 64.601139",
+        "nearest_facility": "Yulin Naval Base",
+        "facility_distance_km": 4806.8,
+        "nearest_anomaly": "Kursk Magnetic Anomaly",
+        "anomaly_distance_km": 2875.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.610651,
+          35.558305
+        ]
+      },
+      "properties": {
+        "id": 59,
+        "date": "2018-08",
+        "title": "Cassini Diskus: 35.558305, 64.610651",
+        "nearest_facility": "Yulin Naval Base",
+        "facility_distance_km": 4806.0,
+        "nearest_anomaly": "Kursk Magnetic Anomaly",
+        "anomaly_distance_km": 2875.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.391877,
+          35.690337
+        ]
+      },
+      "properties": {
+        "id": 60,
+        "date": "2018-08",
+        "title": "Cassini Diskus: 35.690337, 64.391877 (C3Sat)",
+        "nearest_facility": "Yulin Naval Base",
+        "facility_distance_km": 4828.3,
+        "nearest_anomaly": "Kursk Magnetic Anomaly",
+        "anomaly_distance_km": 2851.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.391877,
+          35.690337
+        ]
+      },
+      "properties": {
+        "id": 61,
+        "date": "2018-08",
+        "title": "Cassini Diskus: 35.690337, 64.391877",
+        "nearest_facility": "Yulin Naval Base",
+        "facility_distance_km": 4828.3,
+        "nearest_anomaly": "Kursk Magnetic Anomaly",
+        "anomaly_distance_km": 2851.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.776419,
+          67.512206
+        ]
+      },
+      "properties": {
+        "id": 62,
+        "date": "2018-09",
+        "title": "Cassini Diskus - AfC Recovery Point 67.512206, 48.776419",
+        "nearest_facility": "Thule Air Base",
+        "facility_distance_km": 3443.7,
+        "nearest_anomaly": "Kursk Magnetic Anomaly",
+        "anomaly_distance_km": 1886.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.782778,
+          67.511209
+        ]
+      },
+      "properties": {
+        "id": 63,
+        "date": "2018-09",
+        "title": "Cassini Diskus - S17E 67.511209, 48.782778",
+        "nearest_facility": "Thule Air Base",
+        "facility_distance_km": 3443.9,
+        "nearest_anomaly": "Kursk Magnetic Anomaly",
+        "anomaly_distance_km": 1886.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.783732,
+          67.510262
+        ]
+      },
+      "properties": {
+        "id": 64,
+        "date": "2018-09",
+        "title": "Cassini Diskus - S17F 67.510262, 48.783732",
+        "nearest_facility": "Thule Air Base",
+        "facility_distance_km": 3444.0,
+        "nearest_anomaly": "Kursk Magnetic Anomaly",
+        "anomaly_distance_km": 1886.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.504624,
+          38.686137
+        ]
+      },
+      "properties": {
+        "id": 65,
+        "date": "2019-01",
+        "title": "Cassini Diskus - \"Graphium\" +38.686137, -113.504624",
+        "nearest_facility": "Dugway Proving Ground",
+        "facility_distance_km": 173.3,
+        "nearest_anomaly": "Bermuda Triangle",
+        "anomaly_distance_km": 4249.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.142772,
+          -37.2312
+        ]
+      },
+      "properties": {
+        "id": 66,
+        "date": "2019-02",
+        "title": "Cassini Diskus - \"Sienna\" -37.231200, -13.142772 (Sol-3/STO-2048)",
+        "nearest_facility": "AUTEC",
+        "facility_distance_km": 9645.7,
+        "nearest_anomaly": "South Atlantic Anomaly",
+        "anomaly_distance_km": 2603.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.644,
+          38.7839
+        ]
+      },
+      "properties": {
+        "id": 67,
+        "date": "2019-07",
+        "title": "Cassini Diskus - Tangent EMP Source",
+        "nearest_facility": "Yulin Naval Base",
+        "facility_distance_km": 2289.0,
+        "nearest_anomaly": "Kursk Magnetic Anomaly",
+        "anomaly_distance_km": 5737.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.830901,
+          35.188063
+        ]
+      },
+      "properties": {
+        "id": 68,
+        "date": "2019-09",
+        "title": "Orb Logic - Understanding the Language of Sol-3 Infrastructure",
+        "nearest_facility": "Pantex Plant",
+        "facility_distance_km": 27.9,
+        "nearest_anomaly": "Bermuda Triangle",
+        "anomaly_distance_km": 3159.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.83711,
+          35.192966
+        ]
+      },
+      "properties": {
+        "id": 69,
+        "date": "2019-09",
+        "title": "Orb Logic - Understanding the Language of Sol-3 Infrastructure",
+        "nearest_facility": "Pantex Plant",
+        "facility_distance_km": 28.1,
+        "nearest_anomaly": "Bermuda Triangle",
+        "anomaly_distance_km": 3159.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.050857,
+          84.342545
+        ]
+      },
+      "properties": {
+        "id": 70,
+        "date": "2020-02",
+        "title": "Cassini Diskus - 84.342545, 145.050857",
+        "nearest_facility": "Thule Air Base",
+        "facility_distance_km": 2050.3,
+        "nearest_anomaly": "Kursk Magnetic Anomaly",
+        "anomaly_distance_km": 4495.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.2223,
+          38.554
+        ]
+      },
+      "properties": {
+        "id": 71,
+        "date": "2020-03",
+        "title": "Cassini Diskus - Akrij RTB California",
+        "nearest_facility": "China Lake",
+        "facility_distance_km": 389.6,
+        "nearest_anomaly": "Bermuda Triangle",
+        "anomaly_distance_km": 4828.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1758,
+          38.5922
+        ]
+      },
+      "properties": {
+        "id": 72,
+        "date": "2020-03",
+        "title": "Cassini Diskus - Graphium Flyover",
+        "nearest_facility": "China Lake",
+        "facility_distance_km": 390.7,
+        "nearest_anomaly": "Bermuda Triangle",
+        "anomaly_distance_km": 4824.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.3802,
+          39.4605
+        ]
+      },
+      "properties": {
+        "id": 73,
+        "date": "2020-03",
+        "title": "Cassini Diskus - Presence CAP",
+        "nearest_facility": "Yulin Naval Base",
+        "facility_distance_km": 2361.9,
+        "nearest_anomaly": "Kursk Magnetic Anomaly",
+        "anomaly_distance_km": 5605.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.961,
+          31.342
+        ]
+      },
+      "properties": {
+        "id": 74,
+        "date": "2020-03",
+        "title": "Cassini Diskus - S17J Flyover China",
+        "nearest_facility": "Yulin Naval Base",
+        "facility_distance_km": 1594.8,
+        "nearest_anomaly": "Kursk Magnetic Anomaly",
+        "anomaly_distance_km": 6654.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.0674,
+          30.4871
+        ]
+      },
+      "properties": {
+        "id": 75,
+        "date": "2020-03",
+        "title": "Cassini Diskus - S30",
+        "nearest_facility": "Yulin Naval Base",
+        "facility_distance_km": 1790.8,
+        "nearest_anomaly": "Kursk Magnetic Anomaly",
+        "anomaly_distance_km": 5499.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4204,
+          35.8755
+        ]
+      },
+      "properties": {
+        "id": 76,
+        "date": "2020-03",
+        "title": "Cassini Diskus - Sienna Entry Pacific",
+        "nearest_facility": "Edwards AFB",
+        "facility_distance_km": 425.3,
+        "nearest_anomaly": "Bermuda Triangle",
+        "anomaly_distance_km": 5017.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2173,
+          34.2685
+        ]
+      },
+      "properties": {
+        "id": 77,
+        "date": "2020-03",
+        "title": "Cassini Diskus - Valinta Los Angeles",
+        "nearest_facility": "Edwards AFB",
+        "facility_distance_km": 77.7,
+        "nearest_anomaly": "Bermuda Triangle",
+        "anomaly_distance_km": 4636.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.7664,
+          40.4784
+        ]
+      },
+      "properties": {
+        "id": 78,
+        "date": "2020-03",
+        "title": "Cassini Diskus - Valinta Armenia",
+        "nearest_facility": "Thule Air Base",
+        "facility_distance_km": 6236.7,
+        "nearest_anomaly": "Kursk Magnetic Anomaly",
+        "anomaly_distance_km": 1446.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.7654,
+          27.7829
+        ]
+      },
+      "properties": {
+        "id": 79,
+        "date": "2020-04",
+        "title": "Cassini Diskus - Sienna ECW China",
+        "nearest_facility": "Yulin Naval Base",
+        "facility_distance_km": 1562.3,
+        "nearest_anomaly": "Kursk Magnetic Anomaly",
+        "anomaly_distance_km": 7262.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.345674,
+          16.074928
+        ]
+      },
+      "properties": {
+        "id": 80,
+        "date": "2020-09",
+        "title": "Cassini Diskus - Patch 16.074928, 114.345674",
+        "nearest_facility": "Yulin Naval Base",
+        "facility_distance_km": 561.6,
+        "nearest_anomaly": "Kursk Magnetic Anomaly",
+        "anomaly_distance_km": 7799.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          69.079744,
+          38.944932
+        ]
+      },
+      "properties": {
+        "id": 81,
+        "date": "2020-10",
+        "title": "Cassini Diskus - \"Graphium\" 38.944932, 69.079744",
+        "nearest_facility": "Yulin Naval Base",
+        "facility_distance_km": 4522.5,
+        "nearest_anomaly": "Kursk Magnetic Anomaly",
+        "anomaly_distance_km": 2901.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -45.58376,
+          84.145184
+        ]
+      },
+      "properties": {
+        "id": 82,
+        "date": "2020-10",
+        "title": "Cassini Diskus - \"Sienna\" 84.145184, -45.583760",
+        "nearest_facility": "Thule Air Base",
+        "facility_distance_km": 934.0,
+        "nearest_anomaly": "Kursk Magnetic Anomaly",
+        "anomaly_distance_km": 4207.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.513184,
+          81.271278
+        ]
+      },
+      "properties": {
+        "id": 83,
+        "date": "2020-10",
+        "title": "Cassini Diskus - \"Sienna\" CAP 81.271278, -71.513184",
+        "nearest_facility": "Thule Air Base",
+        "facility_distance_km": 530.5,
+        "nearest_anomaly": "Kursk Magnetic Anomaly",
+        "anomaly_distance_km": 4632.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.61186,
+          81.271664
+        ]
+      },
+      "properties": {
+        "id": 84,
+        "date": "2020-10",
+        "title": "Cassini Diskus - \"Sienna\" CAP 81.271664, -71.611860",
+        "nearest_facility": "Thule Air Base",
+        "facility_distance_km": 530.8,
+        "nearest_anomaly": "Kursk Magnetic Anomaly",
+        "anomaly_distance_km": 4634.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.766534,
+          36.502088
+        ]
+      },
+      "properties": {
+        "id": 85,
+        "date": "2020-11",
+        "title": "Cassini Diskus - 36.502088, 82.766534",
+        "nearest_facility": "Yulin Naval Base",
+        "facility_distance_km": 3316.4,
+        "nearest_anomaly": "Kursk Magnetic Anomaly",
+        "anomaly_distance_km": 3999.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.818172,
+          36.562942
+        ]
+      },
+      "properties": {
+        "id": 86,
+        "date": "2020-11",
+        "title": "Cassini Diskus - 36.562942, 82.818172",
+        "nearest_facility": "Yulin Naval Base",
+        "facility_distance_km": 3315.9,
+        "nearest_anomaly": "Kursk Magnetic Anomaly",
+        "anomaly_distance_km": 3998.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.61186,
+          81.271664
+        ]
+      },
+      "properties": {
+        "id": 87,
+        "date": "2021-07",
+        "title": "Do aliens speak Chinese? Non-conventional intel gathering in high waters",
+        "nearest_facility": "Thule Air Base",
+        "facility_distance_km": 530.8,
+        "nearest_anomaly": "Kursk Magnetic Anomaly",
+        "anomaly_distance_km": 4634.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.53455799633153,
+          16.226159908809212
+        ]
+      },
+      "properties": {
+        "id": 88,
+        "date": "2021-10",
+        "title": "Cassini Diskus - 16.226159908809212, 112.53455799633153",
+        "nearest_facility": "Yulin Naval Base",
+        "facility_distance_km": 385.9,
+        "nearest_anomaly": "Kursk Magnetic Anomaly",
+        "anomaly_distance_km": 7662.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.01913,
+          47.111938
+        ]
+      },
+      "properties": {
+        "id": 89,
+        "date": "2021-10",
+        "title": "Cassini Diskus - PSV \"Akrij\" 47.111938, 94.019130",
+        "nearest_facility": "Yulin Naval Base",
+        "facility_distance_km": 3511.7,
+        "nearest_anomaly": "Kursk Magnetic Anomaly",
+        "anomaly_distance_km": 4103.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.993881,
+          47.159936
+        ]
+      },
+      "properties": {
+        "id": 90,
+        "date": "2021-10",
+        "title": "Cassini Diskus - PSV \"Presence\" 47.159936, 93.993881",
+        "nearest_facility": "Yulin Naval Base",
+        "facility_distance_km": 3517.3,
+        "nearest_anomaly": "Kursk Magnetic Anomaly",
+        "anomaly_distance_km": 4099.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.238805,
+          46.83055
+        ]
+      },
+      "properties": {
+        "id": 91,
+        "date": "2021-10",
+        "title": "Cassini Diskus - PSV \"Tangent-Pamela\" CP 46.830550, 95.238805",
+        "nearest_facility": "Yulin Naval Base",
+        "facility_distance_km": 3440.4,
+        "nearest_anomaly": "Kursk Magnetic Anomaly",
+        "anomaly_distance_km": 4199.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.7337412061282,
+          -20.543438560336423
+        ]
+      },
+      "properties": {
+        "id": 92,
+        "date": "2021-11",
+        "title": "Cassini Diskus - S45 \"Presence\" over -20.543438560336423, -65.7337412061282",
+        "nearest_facility": "AUTEC",
+        "facility_distance_km": 5201.3,
+        "nearest_anomaly": "South Atlantic Anomaly",
+        "anomaly_distance_km": 2784.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.1036,
+          20.3706
+        ]
+      },
+      "properties": {
+        "id": 93,
+        "date": "2022-02",
+        "title": "Cassini Diskus - Akrij Niger",
+        "nearest_facility": "Thule Air Base",
+        "facility_distance_km": 7288.8,
+        "nearest_anomaly": "Bangui Anomaly",
+        "anomaly_distance_km": 2424.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.97305529858384,
+          -47.44908441567651
+        ]
+      },
+      "properties": {
+        "id": 94,
+        "date": "2022-07",
+        "title": "Cassini Diskus \u2013 \u201cGraphium\u201d -47.44908441567651, -85.97305529858384",
+        "nearest_facility": "AUTEC",
+        "facility_distance_km": 8070.4,
+        "nearest_anomaly": "South Atlantic Anomaly",
+        "anomaly_distance_km": 4354.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.97305529858384,
+          -47.44908441567651
+        ]
+      },
+      "properties": {
+        "id": 95,
+        "date": "2022-07",
+        "title": "Cassini Diskus \u2013 \u201cPamela\u201d -47.44908441567651, -85.97305529858384",
+        "nearest_facility": "AUTEC",
+        "facility_distance_km": 8070.4,
+        "nearest_anomaly": "South Atlantic Anomaly",
+        "anomaly_distance_km": 4354.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.0113604692285,
+          -47.43183079066849
+        ]
+      },
+      "properties": {
+        "id": 96,
+        "date": "2022-07",
+        "title": "Cassini Diskus \u2013 \u201cSienna\u201d  -47.43183079066849, -86.0113604692285",
+        "nearest_facility": "AUTEC",
+        "facility_distance_km": 8068.9,
+        "nearest_anomaly": "South Atlantic Anomaly",
+        "anomaly_distance_km": 4357.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.4468,
+          67.5212
+        ]
+      },
+      "properties": {
+        "id": 97,
+        "date": "2022-10",
+        "title": "Cassini Diskus - Yakutia Siberia",
+        "nearest_facility": "Thule Air Base",
+        "facility_distance_km": 3881.6,
+        "nearest_anomaly": "Kursk Magnetic Anomaly",
+        "anomaly_distance_km": 5322.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.8926,
+          19.1609
+        ]
+      },
+      "properties": {
+        "id": 98,
+        "date": "2023-05",
+        "title": "Cassini Diskus - Tangent RTB South China Sea",
+        "nearest_facility": "Yulin Naval Base",
+        "facility_distance_km": 468.2,
+        "nearest_anomaly": "Kursk Magnetic Anomaly",
+        "anomaly_distance_km": 7507.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.7324,
+          81.5477
+        ]
+      },
+      "properties": {
+        "id": 99,
+        "date": "2024-01",
+        "title": "Algorithmic Violence - Arctic",
+        "nearest_facility": "Thule Air Base",
+        "facility_distance_km": 2431.3,
+        "nearest_anomaly": "Kursk Magnetic Anomaly",
+        "anomaly_distance_km": 4240.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1925,
+          10.4056
+        ]
+      },
+      "properties": {
+        "id": 100,
+        "date": "2025-03",
+        "title": "Cassini Diskus - Chad/Nigeria",
+        "nearest_facility": "Thule Air Base",
+        "facility_distance_km": 8672.9,
+        "nearest_anomaly": "Bangui Anomaly",
+        "anomaly_distance_km": 721.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.5786,
+          40.3658
+        ]
+      },
+      "properties": {
+        "id": 101,
+        "date": "2025-03",
+        "title": "Cassini Diskus - INT Downed Turkmenistan",
+        "nearest_facility": "Yulin Naval Base",
+        "facility_distance_km": 5265.4,
+        "nearest_anomaly": "Kursk Magnetic Anomaly",
+        "anomaly_distance_km": 2248.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.8561,
+          -25.7144
+        ]
+      },
+      "properties": {
+        "id": 102,
+        "date": "2025-08",
+        "title": "Cassini Diskus - Presence Pass Namibia",
+        "nearest_facility": "Yulin Naval Base",
+        "facility_distance_km": 10942.2,
+        "nearest_anomaly": "SAA African Lobe",
+        "anomaly_distance_km": 395.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.9014,
+          -25.7108
+        ]
+      },
+      "properties": {
+        "id": 103,
+        "date": "2025-08",
+        "title": "Cassini Diskus - Tangram hit Namibia",
+        "nearest_facility": "Yulin Naval Base",
+        "facility_distance_km": 10937.7,
+        "nearest_anomaly": "SAA African Lobe",
+        "anomaly_distance_km": 399.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -23.9275,
+          -34.8347
+        ]
+      },
+      "properties": {
+        "id": 104,
+        "date": "2025-09",
+        "title": "Cassini Diskus - Presence SAA Center",
+        "nearest_facility": "AUTEC",
+        "facility_distance_km": 8719.1,
+        "nearest_anomaly": "South Atlantic Anomaly",
+        "anomaly_distance_km": 1599.3
+      }
+    }
+  ]
+}

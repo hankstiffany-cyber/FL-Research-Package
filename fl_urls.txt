@@ -1,0 +1,81 @@
+# FL HIGH-VALUE URLS
+# Copy this file alongside fl_local_agent.py
+# Run: python fl_local_agent.py --batch fl_urls.txt
+
+# ============================================
+# DEFENSE / MilOrb / PSV (highest priority)
+# ============================================
+https://forgottenlanguages-full.forgottenlanguages.org/2017/12/axis-from-lightning-bugs-to-milorbs.html
+https://forgottenlanguages-full.forgottenlanguages.org/2017/04/from-radar-angels-to-optical-demons.html
+https://forgottenlanguages-full.forgottenlanguages.org/2017/03/turning-vehicle-into-pilots-prosthetic.html
+https://forgottenlanguages-full.forgottenlanguages.org/2014/09/field-resonance-propulsion-systems-new.html
+https://forgottenlanguages-full.forgottenlanguages.org/2014/02/mil-orbs-and-penetration-of-chinese.html
+https://forgottenlanguages-full.forgottenlanguages.org/2022/08/masint-for-new-world-order-nuro-and.html
+https://forgottenlanguages-full.forgottenlanguages.org/2022/08/highly-unfriendly-threats-from-thule.html
+https://forgottenlanguages-full.forgottenlanguages.org/2024/12/new-jersey-kinetic-strike-test-threat.html
+https://forgottenlanguages-full.forgottenlanguages.org/2024/11/uap-and-militarization-of-natural.html
+https://forgottenlanguages-full.forgottenlanguages.org/2008/03/psv-presence-stephenville-incident-and.html
+
+# ============================================
+# DOLYN / MASINT / Detection
+# ============================================
+https://forgottenlanguages-full.forgottenlanguages.org/2014/11/signals-as-systems-lessons-from-psv.html
+https://forgottenlanguages-full.forgottenlanguages.org/2021/05/non-terrestrial-threats-humans-as.html
+
+# ============================================
+# XViS / Dreams / Consciousness
+# ============================================
+https://forgottenlanguages-full.forgottenlanguages.org/2021/05/tired-light-ii-xvis-and-congenitally.html
+https://forgottenlanguages-full.forgottenlanguages.org/2020/06/xvis-metamaterials-based-brain-implant.html
+https://forgottenlanguages-full.forgottenlanguages.org/2018/02/proto-dreams-in-search-for-dreamers.html
+https://forgottenlanguages-full.forgottenlanguages.org/2023/03/large-dream-models-beyond-llms-into-lyav.html
+https://forgottenlanguages-full.forgottenlanguages.org/2023/04/synthdream-engineering-contact-through.html
+https://forgottenlanguages-full.forgottenlanguages.org/2024/03/synthetic-dream-sharing-cryptography.html
+https://forgottenlanguages-full.forgottenlanguages.org/2022/12/incubation.html
+
+# ============================================
+# Giselian / Contact
+# ============================================
+https://forgottenlanguages-full.forgottenlanguages.org/2015/02/64-years-of-excavations-in-gisel-gilan.html
+https://forgottenlanguages-full.forgottenlanguages.org/2016/05/long-term-presence-of-giselian-beacons.html
+https://forgottenlanguages-full.forgottenlanguages.org/2018/02/proto-dreams-giselians-and-dream.html
+
+# ============================================
+# Time Travel / Queltron / CTC
+# ============================================
+https://forgottenlanguages-full.forgottenlanguages.org/2016/09/communications-inside-non-trivial.html
+https://forgottenlanguages-full.forgottenlanguages.org/2024/07/hypertime-models-from-many-pasts-to.html
+
+# ============================================
+# AI / LyAV / Superintelligence
+# ============================================
+https://forgottenlanguages-full.forgottenlanguages.org/2023/07/chasing-super-intelligence-where-does.html
+https://forgottenlanguages-full.forgottenlanguages.org/2019/06/artificial-intuition-semanticization-of.html
+https://forgottenlanguages-full.forgottenlanguages.org/2022/03/from-denebian-probes-to-epsilon-machines.html
+https://forgottenlanguages-full.forgottenlanguages.org/2024/02/interacting-with-ais-for-long-periods.html
+
+# ============================================
+# NodeSpaces / Encoding
+# ============================================
+https://forgottenlanguages-full.forgottenlanguages.org/2010/12/nodespaces-v20-cognitive-linguistics.html
+https://forgottenlanguages-full.forgottenlanguages.org/2017/07/from-google-translate-to-google-encrypt.html
+https://forgottenlanguages-full.forgottenlanguages.org/2016/03/golay-complementary-sequences-and.html
+https://forgottenlanguages-full.forgottenlanguages.org/2016/04/kolakoski-sequences-in-cassini-diskus.html
+
+# ============================================
+# Cassini Diskus / Coordinates
+# ============================================
+https://forgottenlanguages-full.forgottenlanguages.org/2018/02/cassini-diskus-presence-proximity-sto.html
+https://forgottenlanguages-full.forgottenlanguages.org/2024/02/cassini-diskus-kozyatyn-transect.html
+https://forgottenlanguages-full.forgottenlanguages.org/2025/09/presence-cassini-diskus.html
+
+# ============================================
+# Project Extinction / Future
+# ============================================
+https://forgottenlanguages-full.forgottenlanguages.org/2024/07/the-great-cooling-lost-civilizations-of.html
+https://forgottenlanguages-full.forgottenlanguages.org/2018/02/postwork-civilizations-and-games.html
+
+# ============================================
+# Consciousness Upload
+# ============================================
+https://forgottenlanguages-full.forgottenlanguages.org/2016/10/internalizing-existence-of.html
