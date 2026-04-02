@@ -356,7 +356,7 @@ def main():
         st.markdown("### 📡 NAVIGATION")
         page = st.radio(
             "Select Module",
-            ["🏠 Dashboard", "🔍 Full-Text Search", "📍 Coordinates Map", "📊 Analytics", "⏱️ Timeline", "📉 Temporal Patterns", "🕸️ Network Analysis", "🧩 Topic Modeling", "🔤 Language Analysis", "📚 Articles", "📖 Bibliography", "🖼️ Images", "📚 Reading Lists", "📈 Topic Evolution", "🔗 Similar Articles", "⭐ Bookmarks"],
+            ["🏠 Dashboard", "🔍 Full-Text Search", "📍 Coordinates Map", "📊 Analytics", "⏱️ Timeline", "📉 Temporal Patterns", "🕸️ Network Analysis", "🧩 Topic Modeling", "🔤 Language Analysis", "📚 Articles", "📖 Bibliography", "📑 Bibliography Analysis", "🖼️ Images", "📚 Reading Lists", "📈 Topic Evolution", "🔗 Similar Articles", "⭐ Bookmarks"],
             label_visibility="collapsed"
         )
 
@@ -410,6 +410,8 @@ def main():
         render_articles(data)
     elif page == "📖 Bibliography":
         render_bibliography(data)
+    elif page == "📑 Bibliography Analysis":
+        render_bibliography_analysis(data)
     elif page == "🖼️ Images":
         render_images(data)
     elif page == "📚 Reading Lists":
@@ -1641,6 +1643,119 @@ def render_bibliography(data):
                     "fl_citations_filtered.csv",
                     "text/csv"
                 )
+
+# ============= BIBLIOGRAPHY ANALYSIS =============
+def render_bibliography_analysis(data):
+    st.markdown("## 📑 Bibliography Analysis")
+    st.markdown("*Analyze FL's real-world academic sources and citation patterns*")
+
+    try:
+        from fl_bibliography_analysis import (BibliographyCleaner, AuthorAnalyzer, SourceAnalyzer,
+                                               CitationNetworkAnalyzer, plot_top_authors,
+                                               plot_cited_year_distribution, plot_field_distribution,
+                                               plot_citation_timeline, plot_author_network)
+    except ImportError:
+        st.error("Bibliography analysis module not found. Ensure fl_bibliography_analysis.py is in the project root.")
+        return
+
+    bib_df = data.get("bibliography", pd.DataFrame())
+    cite_df = data.get("citations", pd.DataFrame())
+    articles = data.get("articles", [])
+
+    if bib_df.empty:
+        st.warning("No bibliography data available. Run `python fl_enhanced_extractor.py --reprocess` to extract bibliographies.")
+        return
+
+    @st.cache_resource
+    def run_analysis():
+        cleaner = BibliographyCleaner()
+        clean_bib = cleaner.clean(bib_df)
+        noise = cleaner.get_noise_stats()
+        author_analyzer = AuthorAnalyzer(clean_bib)
+        source_analyzer = SourceAnalyzer(clean_bib)
+        citation_analyzer = CitationNetworkAnalyzer(clean_bib, cite_df, articles)
+        return clean_bib, noise, author_analyzer, source_analyzer, citation_analyzer
+
+    clean_bib, noise, author_analyzer, source_analyzer, citation_analyzer = run_analysis()
+
+    col1, col2, col3, col4 = st.columns(4)
+    col1.metric("Total Entries", f"{len(bib_df):,}")
+    col2.metric("Real References", f"{len(clean_bib):,}")
+    col3.metric("Noise Removed", noise.get('total_removed', 0))
+    col4.metric("Articles w/ Bibliography", f"{clean_bib['article_id'].nunique()}")
+
+    tab1, tab2, tab3, tab4 = st.tabs(["👤 Authors", "📚 Sources & Fields", "📈 Citation Patterns", "🕸️ Co-citation Network"])
+
+    with tab1:
+        st.markdown("### Most-Cited Authors")
+        top_authors = author_analyzer.get_most_cited_authors(top_n=30)
+        fig = plot_top_authors(top_authors)
+        st.plotly_chart(fig, use_container_width=True)
+
+        with st.expander("Full Author Table"):
+            st.dataframe(top_authors, hide_index=True)
+
+        with st.expander("Author Fields"):
+            fields = author_analyzer.get_author_fields()
+            if not fields.empty:
+                st.dataframe(fields.head(30), hide_index=True)
+
+    with tab2:
+        st.markdown("### Academic Field Distribution")
+        field_dist = source_analyzer.get_field_distribution()
+        fig = plot_field_distribution(field_dist)
+        st.plotly_chart(fig, use_container_width=True)
+
+        st.markdown("### Publication Year Distribution of Cited Works")
+        year_dist = source_analyzer.get_cited_year_distribution()
+        fig = plot_cited_year_distribution(year_dist)
+        st.plotly_chart(fig, use_container_width=True)
+
+        col1, col2 = st.columns(2)
+        with col1:
+            st.markdown("**Top Journals**")
+            journals = source_analyzer.get_top_journals(top_n=20)
+            st.dataframe(journals, hide_index=True)
+        with col2:
+            st.markdown("**Top Publishers**")
+            publishers = source_analyzer.get_top_publishers(top_n=20)
+            if not publishers.empty:
+                st.dataframe(publishers, hide_index=True)
+
+    with tab3:
+        st.markdown("### Citation Patterns Over Time")
+        timeline = citation_analyzer.get_citation_timeline()
+        if not timeline.empty:
+            fig = plot_citation_timeline(timeline)
+            st.plotly_chart(fig, use_container_width=True)
+
+        st.markdown("### Citation Density by FL Category")
+        density = citation_analyzer.get_citation_density_by_category()
+        if not density.empty:
+            st.dataframe(density.head(20), hide_index=True)
+
+        with st.expander("Most-Cited Works"):
+            works = citation_analyzer.get_most_cited_works()
+            if not works.empty:
+                st.dataframe(works.head(20), hide_index=True)
+
+    with tab4:
+        st.markdown("### Author Co-citation Network")
+        st.markdown("*Authors connected when cited in the same FL article*")
+        cooccurrence = author_analyzer.get_author_cooccurrence(top_n=20)
+        if not cooccurrence.empty:
+            fig = plot_author_network(cooccurrence)
+            st.plotly_chart(fig, use_container_width=True)
+
+            with st.expander("Co-citation Table"):
+                st.dataframe(cooccurrence.head(30), hide_index=True)
+
+        with st.expander("Cross-Article Citations (shared sources)"):
+            cross = citation_analyzer.get_cross_article_citations()
+            if not cross.empty:
+                st.dataframe(cross.head(20), hide_index=True)
+            else:
+                st.info("No cross-article citations found")
 
 # ============= IMAGES =============
 def render_images(data):
