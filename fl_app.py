@@ -356,7 +356,7 @@ def main():
         st.markdown("### 📡 NAVIGATION")
         page = st.radio(
             "Select Module",
-            ["🏠 Dashboard", "🔍 Full-Text Search", "📍 Coordinates Map", "📊 Analytics", "⏱️ Timeline", "📉 Temporal Patterns", "📚 Articles", "📖 Bibliography", "🖼️ Images", "📚 Reading Lists", "📈 Topic Evolution", "🔗 Similar Articles", "⭐ Bookmarks"],
+            ["🏠 Dashboard", "🔍 Full-Text Search", "📍 Coordinates Map", "📊 Analytics", "⏱️ Timeline", "📉 Temporal Patterns", "🕸️ Network Analysis", "🧩 Topic Modeling", "🔤 Language Analysis", "📚 Articles", "📖 Bibliography", "🖼️ Images", "📚 Reading Lists", "📈 Topic Evolution", "🔗 Similar Articles", "⭐ Bookmarks"],
             label_visibility="collapsed"
         )
 
@@ -400,6 +400,12 @@ def main():
         render_timeline(data)
     elif page == "📉 Temporal Patterns":
         render_temporal_patterns(data)
+    elif page == "🕸️ Network Analysis":
+        render_network_analysis(data)
+    elif page == "🧩 Topic Modeling":
+        render_topic_modeling(data)
+    elif page == "🔤 Language Analysis":
+        render_language_analysis(data)
     elif page == "📚 Articles":
         render_articles(data)
     elif page == "📖 Bibliography":
@@ -1070,6 +1076,257 @@ def render_temporal_patterns(data):
                 st.dataframe(shifts, hide_index=True)
             else:
                 st.info("No geographic shift data")
+
+# ============= NETWORK ANALYSIS =============
+def render_network_analysis(data):
+    st.markdown("## 🕸️ Network Analysis")
+    st.markdown("*Discover connections between topics, find hub articles, and map topic communities*")
+
+    try:
+        from fl_network_analysis import (ArticleNetworkBuilder, HubDetector, CommunityDetector,
+                                         plot_label_network, plot_community_sizes, plot_hub_articles)
+    except ImportError:
+        st.error("Network analysis module not found. Ensure fl_network_analysis.py is in the project root.")
+        return
+
+    articles = data.get("articles", [])
+    if not articles:
+        st.warning("No article data available.")
+        return
+
+    @st.cache_resource
+    def build_network():
+        builder = ArticleNetworkBuilder(articles)
+        nodes, edges = builder.build_label_network()
+        hub_det = HubDetector(nodes, edges, articles)
+        comm_det = CommunityDetector(nodes, edges, articles)
+        communities = comm_det.detect_communities()
+        return builder, hub_det, comm_det, nodes, edges, communities
+
+    builder, hub_det, comm_det, nodes, edges, communities = build_network()
+
+    tab1, tab2, tab3 = st.tabs(["🕸️ Label Network", "🎯 Hubs & Bridges", "🏘️ Communities"])
+
+    with tab1:
+        st.markdown("### Label Co-occurrence Network")
+        st.markdown(f"**{len(nodes)} labels** connected by **{len(edges)} edges**")
+
+        fig = plot_label_network(builder, communities)
+        st.plotly_chart(fig, use_container_width=True)
+
+        with st.expander("Label Statistics"):
+            stats = builder.get_label_stats()
+            st.dataframe(stats.head(30), hide_index=True)
+
+    with tab2:
+        st.markdown("### Hub & Bridge Labels")
+        col1, col2 = st.columns(2)
+        with col1:
+            st.markdown("**Hub Labels** (most connections)")
+            hubs = hub_det.find_hub_labels(top_n=20)
+            st.dataframe(hubs, hide_index=True)
+        with col2:
+            st.markdown("**Bridge Labels** (connect different clusters)")
+            bridges = hub_det.find_bridge_labels(top_n=15)
+            st.dataframe(bridges, hide_index=True)
+
+        with st.expander("Hub Articles (span multiple communities)"):
+            hub_arts = hub_det.find_hub_articles(top_n=20)
+            st.dataframe(hub_arts, hide_index=True)
+
+        fig = plot_hub_articles(hub_det.find_hub_articles(top_n=20))
+        st.plotly_chart(fig, use_container_width=True)
+
+    with tab3:
+        st.markdown("### Topic Communities")
+        summary = comm_det.get_community_summary()
+        st.markdown(f"**{len(communities)} communities detected**")
+
+        fig = plot_community_sizes(summary)
+        st.plotly_chart(fig, use_container_width=True)
+
+        for _, row in summary.iterrows():
+            with st.expander(f"Community {row['community_id']}: {row['top_label']} cluster ({row['article_count']} articles, {row['label_count']} labels)"):
+                st.markdown(f"**Labels:** {row['labels']}")
+
+# ============= TOPIC MODELING =============
+def render_topic_modeling(data):
+    st.markdown("## 🧩 Topic Modeling")
+    st.markdown("*Discover hidden thematic clusters in 30,000+ excerpts using NMF*")
+
+    try:
+        from fl_topic_modeling import (ExcerptTopicModeler, TopicLabelComparator, TopicTrendAnalyzer,
+                                       plot_topic_wordclouds, plot_topic_distribution,
+                                       plot_topic_heatmap, plot_topic_trends)
+    except ImportError:
+        st.error("Topic modeling module not found. Ensure fl_topic_modeling.py is in the project root.")
+        return
+
+    try:
+        from sklearn.feature_extraction.text import TfidfVectorizer
+    except ImportError:
+        st.error("scikit-learn is required for topic modeling. Install with: pip install scikit-learn")
+        return
+
+    articles = data.get("articles", [])
+    excerpts_df = data.get("excerpts", pd.DataFrame())
+    if excerpts_df.empty:
+        st.warning("No excerpt data available.")
+        return
+
+    n_topics = st.sidebar.slider("Number of topics", 5, 30, 15, key="n_topics_slider")
+
+    @st.cache_resource
+    def fit_model(n):
+        modeler = ExcerptTopicModeler(excerpts_df)
+        modeler.fit(n_topics=n)
+        comparator = TopicLabelComparator(modeler, articles)
+        trend_analyzer = TopicTrendAnalyzer(modeler, articles)
+        return modeler, comparator, trend_analyzer
+
+    with st.spinner("Fitting topic model (this takes ~10 seconds)..."):
+        modeler, comparator, trend_analyzer = fit_model(n_topics)
+
+    tab1, tab2, tab3, tab4 = st.tabs(["📊 Discovered Topics", "🔍 Novel Topics", "📈 Topic Trends", "🗺️ Topic-Label Map"])
+
+    with tab1:
+        st.markdown("### Discovered Topics")
+
+        fig = plot_topic_wordclouds(modeler)
+        st.plotly_chart(fig, use_container_width=True)
+
+        fig2 = plot_topic_distribution(modeler)
+        st.plotly_chart(fig2, use_container_width=True)
+
+    with tab2:
+        st.markdown("### Novel/Hidden Topics")
+        st.markdown("*Topics that don't align well with any existing label — these are hidden thematic clusters*")
+        novel = comparator.find_novel_topics()
+        if not novel.empty:
+            for _, row in novel.iterrows():
+                st.markdown(f"**Topic {row['topic_id']} [{row['topic_label']}]**: {row['top_words']}")
+                st.markdown(f"  Best label match: {row['best_label']} (alignment: {row['alignment_score']:.2f})")
+                st.markdown("---")
+        else:
+            st.info("All topics align with existing labels.")
+
+        with st.expander("Full Topic-Label Comparison"):
+            comparison = comparator.compare_topics_to_labels(articles)
+            st.dataframe(comparison, hide_index=True)
+
+    with tab3:
+        st.markdown("### Topic Trends")
+        fig = plot_topic_trends(trend_analyzer)
+        st.plotly_chart(fig, use_container_width=True)
+
+        trending = trend_analyzer.get_trending_topics()
+        if not trending.empty:
+            col1, col2 = st.columns(2)
+            with col1:
+                st.markdown("**Rising Topics**")
+                rising = trending[trending['direction'] == 'rising']
+                st.dataframe(rising, hide_index=True)
+            with col2:
+                st.markdown("**Declining Topics**")
+                declining = trending[trending['direction'] == 'declining']
+                st.dataframe(declining, hide_index=True)
+
+    with tab4:
+        st.markdown("### Topic-Label Alignment Heatmap")
+        fig = plot_topic_heatmap(comparator, articles)
+        st.plotly_chart(fig, use_container_width=True)
+
+# ============= LANGUAGE ANALYSIS =============
+def render_language_analysis(data):
+    st.markdown("## 🔤 Language Analysis")
+    st.markdown("*Catalog and classify FL constructed languages across 10,000+ articles*")
+
+    try:
+        from fl_language_analysis import (LanguageClassifier, LanguageAnalyzer, LanguageFamilyDetector,
+                                          LanguageEvolutionTracker, plot_language_timeline,
+                                          plot_language_topic_heatmap, plot_language_births,
+                                          plot_language_families)
+    except ImportError:
+        st.error("Language analysis module not found. Ensure fl_language_analysis.py is in the project root.")
+        return
+
+    articles = data.get("articles", [])
+    if not articles:
+        st.warning("No article data available.")
+        return
+
+    @st.cache_resource
+    def run_language_analysis():
+        classifier = LanguageClassifier(articles)
+        languages = classifier.get_languages()
+        analyzer = LanguageAnalyzer(articles, languages)
+        family_det = LanguageFamilyDetector(articles, languages)
+        evolution = LanguageEvolutionTracker(articles, languages)
+        return classifier, analyzer, family_det, evolution
+
+    classifier, analyzer, family_det, evolution = run_language_analysis()
+
+    tab1, tab2, tab3, tab4 = st.tabs(["📊 Language Stats", "👨‍👩‍👧‍👦 Language Families", "📈 Evolution", "🏷️ Classification"])
+
+    with tab1:
+        st.markdown("### Language Statistics")
+        languages_list = classifier.get_languages()
+        topics_list = classifier.get_topics()
+
+        col1, col2, col3 = st.columns(3)
+        col1.metric("Languages Identified", len(languages_list))
+        col2.metric("Topic Labels", len(topics_list))
+        col3.metric("Total Articles", len(articles))
+
+        st.markdown("**Most-used languages:**")
+        prolific = analyzer.get_prolific_languages(top_n=30)
+        st.dataframe(prolific, hide_index=True)
+
+        fig = plot_language_timeline(analyzer)
+        st.plotly_chart(fig, use_container_width=True)
+
+    with tab2:
+        st.markdown("### Language Families")
+        st.markdown("*Languages grouped by topic similarity*")
+
+        fig = plot_language_families(family_det)
+        st.plotly_chart(fig, use_container_width=True)
+
+        summary = family_det.get_family_summary()
+        for _, row in summary.iterrows():
+            with st.expander(f"Family {row['family_id']}: {row['primary_topics']} ({row['language_count']} languages, {row['article_count']} articles)"):
+                st.markdown(f"**Languages:** {row['languages']}")
+
+    with tab3:
+        st.markdown("### Language Evolution")
+        lifecycle = evolution.get_language_lifecycle()
+
+        col1, col2, col3 = st.columns(3)
+        active = lifecycle[lifecycle['status'] == 'active']
+        dormant = lifecycle[lifecycle['status'] == 'dormant']
+        retired = lifecycle[lifecycle['status'] == 'retired']
+        col1.metric("Active", len(active))
+        col2.metric("Dormant", len(dormant))
+        col3.metric("Retired", len(retired))
+
+        fig = plot_language_births(evolution)
+        st.plotly_chart(fig, use_container_width=True)
+
+        with st.expander("Active Languages"):
+            st.dataframe(active.head(30), hide_index=True)
+        with st.expander("Dormant Languages"):
+            st.dataframe(dormant, hide_index=True)
+        with st.expander("Retired Languages"):
+            st.dataframe(retired.head(30), hide_index=True)
+
+    with tab4:
+        st.markdown("### Label Classification")
+        st.markdown("*How labels are classified as language vs topic*")
+        classification = classifier.classify_labels()
+        st.dataframe(classification, hide_index=True)
+
+        fig = plot_language_topic_heatmap(analyzer)
+        st.plotly_chart(fig, use_container_width=True)
 
 # ============= ARTICLES =============
 def render_articles(data):
